@@ -20,7 +20,7 @@ class MyMath2{
 
 public class MyMathTest2 {
     public static void main(String[] args) {
-        //클래스매서드 호출 / 인스턴스 생성없이 호출가능
+        //클래스매서드 호출 - 인스턴스 생성없이 호출가능
         System.out.println(MyMath2.add(2L,3L));
         System.out.println(MyMath2.subtract(2L,3L));
         System.out.println(MyMath2.multiply(2L,3L));
