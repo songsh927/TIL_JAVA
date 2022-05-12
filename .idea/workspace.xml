@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b15379d2-0028-418d-a856-3d18a8a2d140" name="변경" comment="22.04.21">
-      <change afterPath="$PROJECT_DIR$/ch6_2_class/MemberCall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch6_4_overloading/OverLoadingTest.java" afterDir="false" />
+    <list default="true" id="b15379d2-0028-418d-a856-3d18a8a2d140" name="변경" comment="22.04.26">
+      <change afterPath="$PROJECT_DIR$/ch6_4_overloading/VarArgsEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch6_5_constructor/CarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch6_5_constructor/CarTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch6_5_constructor/ConstructorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch6_6_initVariable/BlockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch6_6_initVariable/DocTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch6_6_initVariable/ProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch6_6_initVariable/StaticBlockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch6_2_class/MyMathTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch6_2_class/MyMathTest2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,13 +49,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.OverLoadingTest">
-    <configuration name="CallStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch6_2_class.CallStackTest" />
+  <component name="RunManager" selected="Application.DocTest">
+    <configuration name="BlockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch6_6_initVariable.BlockTest" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch6_2_class.*" />
+          <option name="PATTERN" value="ch6_6_initVariable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyMathTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch6_2_class.MyMathTest" />
+    <configuration name="CarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch6_5_constructor.CarTest" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch6_2_class.*" />
+          <option name="PATTERN" value="ch6_5_constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyMathTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch6_2_class.MyMathTest2" />
+    <configuration name="DocTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch6_6_initVariable.DocTest" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch6_2_class.*" />
+          <option name="PATTERN" value="ch6_6_initVariable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverLoadingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch6_4_overloading.OverLoadingTest" />
+    <configuration name="ProductTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch6_6_initVariable.ProductTest" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch6_4_overloading.*" />
+          <option name="PATTERN" value="ch6_6_initVariable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TvTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch6_2_class.TvTest" />
+    <configuration name="StaticBlockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch6_6_initVariable.StaticBlockTest" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch6_2_class.*" />
+          <option name="PATTERN" value="ch6_6_initVariable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.OverLoadingTest" />
-        <item itemvalue="애플리케이션.MyMathTest2" />
-        <item itemvalue="애플리케이션.CallStackTest" />
-        <item itemvalue="애플리케이션.TvTest" />
-        <item itemvalue="애플리케이션.MyMathTest" />
+        <item itemvalue="Application.DocTest" />
+        <item itemvalue="Application.ProductTest" />
+        <item itemvalue="Application.BlockTest" />
+        <item itemvalue="Application.StaticBlockTest" />
+        <item itemvalue="Application.CarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +137,7 @@
       <workItem from="1650423791266" duration="30000" />
       <workItem from="1650423837353" duration="1350000" />
       <workItem from="1650432730104" duration="13215000" />
-      <workItem from="1650942989977" duration="1176000" />
+      <workItem from="1650942989977" duration="2403000" />
     </task>
     <task id="LOCAL-00001" summary="22.04.20">
       <created>1650437230906</created>
@@ -156,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650539016960</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="22.04.26">
+      <created>1650969196313</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650969196313</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +187,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="22.04.20" />
     <MESSAGE value="22.04.21" />
-    <option name="LAST_COMMIT_MESSAGE" value="22.04.21" />
+    <MESSAGE value="22.04.26" />
+    <option name="LAST_COMMIT_MESSAGE" value="22.04.26" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
