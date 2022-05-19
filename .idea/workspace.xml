@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b15379d2-0028-418d-a856-3d18a8a2d140" name="변경" comment="22.05.12">
-      <change afterPath="$PROJECT_DIR$/ch7_1_inheritance/CaptionTvTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch7_1_inheritance/DeckTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch7_1_inheritance/DrawShape.java" afterDir="false" />
+    <list default="true" id="b15379d2-0028-418d-a856-3d18a8a2d140" name="변경" comment="22.05.18">
+      <change afterPath="$PROJECT_DIR$/ch7_1_inheritance/TVCR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch7_2_overriding/SuperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch7_2_overriding/SuperTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,39 +44,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DeckTest">
-    <configuration name="CaptionTvTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch7_1_inheritance.CaptionTvTest" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch7_1_inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SuperTest2">
     <configuration name="DeckTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch7_1_inheritance.DeckTest" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ch7_1_inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DocTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch6_6_initVariable.DocTest" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch6_6_initVariable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +71,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch6_6_initVariable.ProductTest" />
+    <configuration name="Elevator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingtest.Elevator" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch6_6_initVariable.*" />
+          <option name="PATTERN" value="codingtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuperTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch7_2_overriding.SuperTest" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch7_2_overriding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuperTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch7_2_overriding.SuperTest2" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch7_2_overriding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SuperTest2" />
+        <item itemvalue="Application.SuperTest" />
+        <item itemvalue="Application.Elevator" />
         <item itemvalue="Application.DeckTest" />
         <item itemvalue="Application.DrawShape" />
-        <item itemvalue="Application.CaptionTvTest" />
-        <item itemvalue="Application.DocTest" />
-        <item itemvalue="Application.ProductTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652356525264</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="22.05.18">
+      <created>1652873175038</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652873175038</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +198,8 @@
     <MESSAGE value="22.04.21" />
     <MESSAGE value="22.04.26" />
     <MESSAGE value="22.05.12" />
-    <option name="LAST_COMMIT_MESSAGE" value="22.05.12" />
+    <MESSAGE value="22.05.18" />
+    <option name="LAST_COMMIT_MESSAGE" value="22.05.18" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
